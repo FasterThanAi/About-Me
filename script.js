@@ -1,8 +1,14 @@
-const form=document.getElementById('contact-form')
+const form = document.getElementById('contact-form');
 
 function submitfun(e){
-    // e.preventDefault()
-    alert('form submitted')
-    form.reset();
+    // 1. You MUST prevent the default refresh
+    e.preventDefault(); 
+    
+    alert('Form submitted successfully!');
+    
+    // Optional: Clear the form inputs
+    // form.reset(); 
 }
-form.addEventListener('submit',submitfun());
+
+// 2. Pass the function NAME, do not use ()
+form.addEventListener('submit', submitfun);

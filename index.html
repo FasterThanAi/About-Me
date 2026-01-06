@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Profile | Priyanshu Kumar</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
@@ -25,7 +27,7 @@
         <section id="home">
             <h2 class="section-title">Personal Details</h2>
             <p>
-                Hello, I am <strong>Priyanshu Kumar</strong>. 
+                Hello, I am <strong>Priyanshu Kumar</strong>.
                 I am a 3rd-year B.Tech CSE student currently learning Machine Learning and Full Stack Development.
             </p>
         </section>
@@ -33,8 +35,11 @@
         <section id="about">
             <h2 class="section-title">About</h2>
             <p>
-                As a CSE Engineer, I strive to be adaptive toward new technologies. 
+                As a CSE Engineer, I strive to be adaptive toward new technologies.
                 I am currently preparing for placements and focusing on consistency in my coding practice.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium in nihil necessitatibus
+                repellendus placeat assumenda quasi? Doloremque iste accusantium earum laboriosam dolores, perspiciatis
+                vitae nesciunt alias eos totam voluptate facilis. Corporis?
             </p>
         </section>
 
@@ -42,6 +47,12 @@
             <h2 class="section-title">Information</h2>
             <p>
                 Currently working on MERN Stack and ML Projects.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quos accusantium ab similique
+                porro sequi aperiam commodi quisquam, rerum omnis asperiores.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quod, possimus facilis unde
+                voluptate nam assumenda iusto cum sint fugit molestias ipsa at doloribus consectetur accusantium,
+                delectus labore aperiam quia debitis? Dignissimos asperiores rem rerum placeat consequatur sequi ullam!
+                Debitis nisi quae architecto minus ea.
             </p>
         </section>
 
@@ -50,17 +61,24 @@
             <form id="contact-form">
                 <label for="fname">Name</label>
                 <input type="text" id="fname" placeholder="Enter Your Name">
-                
+
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder="Enter Your Email" required>
-                
+                <label for="reason">Reason for Contacting</label>
+                <select id="reason" name="reason">
+                    <option value="general">General Inquiry</option>
+                    <option value="hiring">Hiring / Job Opportunity</option>
+                    <option value="project">Project Collaboration</option>
+                    <option value="other">Other</option>
+                </select>
                 <label for="message">Message</label>
                 <textarea id="message" rows="4" placeholder="Enter Your Message"></textarea>
-                
+
                 <button type="submit" id="submit-btn">Send Message</button>
             </form>
         </section>
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>
